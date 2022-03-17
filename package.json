@@ -1,0 +1,31 @@
+{
+  "name": "node_weather",
+  "version": "1.0.0",
+  "description": "learn nodejs cli weather",
+  "bin": "./index.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ONeal182/node_weather.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cli",
+    "weather"
+  ],
+  "author": "ONeal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ONeal182/node_weather/issues"
+  },
+  "homepage": "https://github.com/ONeal182/node_weather#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {}
+}
